@@ -1,1 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+    width: 18rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

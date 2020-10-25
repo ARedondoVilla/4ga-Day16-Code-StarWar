@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 export default function(props) {
     return (
-        <nav className="navbar">
-            <div className="container">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link>
-            </div>
+        <nav class="navbar navbar-light bg-light container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <form class="form-inline">
+                <button class="btn btn-outline-success" type="button">Main button</button>
+            </form>
+        
         </nav>
     )
 }

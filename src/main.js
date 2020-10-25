@@ -16,28 +16,25 @@ import Home from "./pages/home.js"
 import About from "./pages/about.js"
 import Contact from "./pages/contact.js"
 import User from "./pages/user.js"
+import Characters from "./pages/characters.js"
+import Planets from "./pages/planets.js"
+import More from "./pages/more.js"
 
 const container = document.querySelector("#app");
 const component = (
     <Router>
         <Navbar />
         
-        <div className="page">
+       <Characters />
+       <Planets />
+       <div className="page">
             <Switch>
                 <Route exact path="/">
                     <Home />
                 </Route>
-
-                <Route path="/about">
-                    <About />
-                </Route>
-
-                <Route path="/contact">
-                    <Contact />
-                </Route>
-
-                <Route path="/users/:id">
-                    <User />
+                
+                <Route path="/more">
+                    <More />
                 </Route>
             </Switch>
         </div>
