@@ -8,3 +8,11 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.navbar-brand {
+    background-color: black;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
